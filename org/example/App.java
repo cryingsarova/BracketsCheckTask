@@ -4,5 +4,7 @@ public class App {
         System.out.println(BracketsCheckService.getValidBracketsString(")()())"));
         System.out.println(BracketsCheckService.getValidBracketsString(")(()())"));
         System.out.println(BracketsCheckService.getValidBracketsString(")("));
+        System.out.println(BracketsCheckService.getValidBracketsString(""));
+        System.out.println(BracketsCheckService.getValidBracketsString("))))()(())()"));
     }
 }
